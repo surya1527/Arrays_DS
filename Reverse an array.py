@@ -7,7 +7,7 @@ def reverseList(A):
     while(start < end):
         A[start] , A[end] = A[end] , A[start]   #Swapping the start and end elements in the array by index value
 
-        #Incrementing and decrementing the index values simultaneously
+        #Incrementing and decrementing the index values simultaneously 
 
         start+=1
         end-=1
