@@ -2,7 +2,7 @@
 
 # Function to reverse A[] from start to end
 def reverseList(A):
-    start = 0
+    start = 0 
     end = len(A) - 1
     while(start < end):
         A[start] , A[end] = A[end] , A[start]   #Swapping the start and end elements in the array by index value
